@@ -225,3 +225,14 @@ color:#699CCF;
 #SiteHeader h1,#SiteHeader span,#Body #MainMenu #GlobalMenu h3 span {
 display:none;
 }
+
+/* my stuff */
+
+.bold {
+    font-weight: bold;
+}
+
+.phonenum {
+    font-weight: bold;
+    font-size: 16pt;
+}

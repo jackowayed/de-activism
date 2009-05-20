@@ -127,19 +127,23 @@ __END__
 
 %p
   Now, please call your state senator, Senator
-  = @person.senator
+  = @person.senator_name
   , to ask him/her to sign the petition to get
   = BILL
   out of committee.
 
 %p
-  Below is your senator's number, followed by a sample script to use when talking to him or her.
+  Below is your senator's phone number, followed by a sample script to use when talking to him or her.
 
-= @person.to_s
+%p
+  Call
+  %span.phonenum= @person.senator_phone
+
+%h2 Script
 
 %p
   Dear Senator 
-  =precede @person.senator do
+  =precede @person.senator_name do
     \:
 
 %p
