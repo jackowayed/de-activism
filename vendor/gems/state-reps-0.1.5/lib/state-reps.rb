@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 module StateReps
-require 'person'
+require './person'
 require 'net/http'
 require 'uri'
   def spacesToPlus(str)
