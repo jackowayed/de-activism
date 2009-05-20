@@ -42,10 +42,14 @@ __END__
 %h1= "#{BILL}"
 
 %p
-  TODO Blurb about why HB 5 rocks.
+  Delaware House Bill 5 proposes to ban discrimination based on sexual orientation. It passed the state House of Representatives convincingly with a 26-14 margin. Curently, it is stuck in the Senate Executive Committee. 
+%p
+  Since the bill will probably not leave committee through regular means, state Senators need to sign a petition to bring it to the Senate floor.
+%p
+  This site will quickly and securely allow you to determine your state Senator and his or her phone number and give you a sample script to use when encouraging him or her to sign the petition. 
 
 %p
-  First, we must determine your state representatives. To do so, please enter your address below. We promise not to record your address. It will only be used to determine your state legislative districts. 
+  First, we must determine your state representatives. To do so, please enter your address below. We will not record your address. It will only be used to determine your state Senator.
 
 %form{:action => '/script', :method => :post}
   %p
@@ -109,8 +113,8 @@ __END__
     <option value="WI">Wisconsin</option> 
     <option value="WY">Wyoming</option>
     </select>
+  .phonenum OR
   %hr{:width => '500px', :style => "margin-left: 0"}
-  %label OR
   %p
     If you are uncomfortable providing your address, simply enter your 9-digit zip code below. Go
     %a{:href => "http://zip4.usps.com/zip4/"} here
