@@ -236,3 +236,12 @@ display:none;
     font-weight: bold;
     font-size: 16pt;
 }
+
+#errors {
+    width: 80%;
+    background: #FF0;
+    padding: .5em;
+    border-style: solid;
+    border-color: #F00;
+    border-width: 2px;
+}
