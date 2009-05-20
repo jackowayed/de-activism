@@ -2,7 +2,7 @@
 
 require 'rubygems'
 require 'sinatra'
-require 'state-reps'
+require 'vendor/gems/state-reps-0.1.5/lib/state-reps'
 
 include StateReps
 

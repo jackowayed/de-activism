@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: StateReps#zip_9
+is_singleton: false
+name: zip_9
+params: (person)
+visibility: public

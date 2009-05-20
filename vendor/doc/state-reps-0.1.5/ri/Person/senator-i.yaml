@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: Person#senator
+is_singleton: false
+name: senator
+params: ()
+visibility: public

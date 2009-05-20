@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+  <title>getZip9 (StateReps)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="../.././rdoc-style.css" type="text/css" media="screen" />
+</head>
+<body class="standalone-code">
+  <pre><span class="ruby-comment cmt"># File lib/state-reps.rb, line 85</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">getZip9</span>()
+
+    <span class="ruby-comment cmt">#POST = &quot;digg.com&quot;</span>
+    <span class="ruby-comment cmt">#PORT = 80</span>
+    
+
+    
+    <span class="ruby-comment cmt">#Net::HTTP.start(HOST, PORT) do |http|</span>
+    <span class="ruby-identifier">people</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span>
+      <span class="ruby-comment cmt">#  x = Person.new</span>
+      <span class="ruby-comment cmt">#  x.address=&quot;112 Great Circle Rd&quot;</span>
+      <span class="ruby-comment cmt">#  x.city=&quot;Newark&quot;</span>
+      <span class="ruby-comment cmt">#  x.state=&quot;DE&quot;</span>
+      
+      
+      <span class="ruby-comment cmt">#request = Net::HTTP::Post.new(URI2,{&quot;address1&quot;=&gt; x.address, &quot;city&quot;=&gt; x.city, &quot;state&quot;=&gt; x.state})</span>
+      <span class="ruby-comment cmt">#  request = Net::HTTP::Post.new(URI2, {&quot;address2&quot; =&gt; &quot;112+Great+Circle+Rd&quot;, &quot;city&quot; =&gt; &quot;Newark&quot;, &quot;state&quot; =&gt; &quot;DE&quot;, &quot;address1&quot; =&gt; &quot;&quot;, &quot;zip5&quot; =&gt; &quot;&quot;, &quot;visited&quot; =&gt; &quot;1&quot;, &quot;pagenumber&quot; =&gt; &quot;0&quot;, &quot;firmname&quot;=&gt;&quot;&quot;, &quot;urbanization&quot; =&gt; &quot;&quot;, &quot;submit.x&quot; =&gt; &quot;0&quot;, &quot;sumbit.y&quot; =&gt; &quot;0&quot;, &quot;submit&quot; =&gt; &quot;Find+ZIP+Code&quot;})</span>
+      
+      
+      
+      <span class="ruby-comment cmt">#    uri2 = &quot;/zip4/zcl_0_results.jsp?visited=1&amp;pagenumber=0&amp;firmname=&amp;address2=#{spacesToPlus(x.address).upcase}&amp;address1=&amp;city=#{spacesToPlus(x.city).upcase}&amp;state=#{spacesToPlus(x.state).upcase}&amp;urbanization=&amp;zip5=&amp;submit.x=0&amp;submit.y=0&amp;submit=Find+ZIP+Code&quot;</span>
+      <span class="ruby-comment cmt">#  request = Net::HTTP::Get.new(uri2)</span>
+      <span class="ruby-comment cmt">#    response = http.request(request)</span>
+      <span class="ruby-comment cmt">#response = Net::HTTP.get(URI.parse(&quot;zip4.usps.com/zip4/zcl_0_results.jsp?visited=1&amp;pagenumber=0&amp;firmname=&amp;address2=#{spacesToPlus(x.address).upcase}&amp;address1=&amp;city=#{spacesToPlus(x.city).upcase}&amp;state=#{spacesToPlus(x.state).upcase}&amp;urbanization=&amp;zip5=&amp;submit.x=0&amp;submit.y=0&amp;submit=Find+ZIP+Code&quot;))</span>
+      
+      
+      
+      <span class="ruby-comment cmt">#page = Net::HTTP.post_form(URI.parse(&quot;zip4.usps.com/zip4/zcl_0_results.jsp&quot;), {&quot;address1&quot;=&gt; x.address, &quot;city&quot;=&gt; x.city, &quot;state&quot;=&gt; x.state})</span>
+      <span class="ruby-comment cmt">#uri2 = &quot;/zip4/zcl_0_results.jsp?visited=1&amp;pagenumber=0&amp;firmname=&amp;address2=#{spacesToPlus(x.address).upcase}&amp;address1=&amp;city=#{spacesToPlus(x.city).upcase}&amp;state=#{spacesToPlus(x.state).upcase}&amp;urbanization=&amp;zip5=&amp;submit.x=0&amp;submit.y=0&amp;submit=Find+ZIP+Code&quot;</span>
+      <span class="ruby-comment cmt">#uri2 = &quot;/popular/24hours&quot;</span>
+      
+      <span class="ruby-identifier">zip</span> = <span class="ruby-identifier">zip_9</span> <span class="ruby-identifier">x</span>
+      <span class="ruby-identifier">x</span>.<span class="ruby-identifier">zip9</span> = <span class="ruby-identifier">zip</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">zip</span>
+      
+      <span class="ruby-comment cmt">#thanks to http://snakesgemscoffee.blogspot.com/2007/03/twittering-around.html</span>
+    }
+    <span class="ruby-comment cmt">#end</span>
+    
+    <span class="ruby-comment cmt">#  peoplestr = &quot;&quot;</span>
+    <span class="ruby-comment cmt">#  people.each{|x|</span>
+    <span class="ruby-comment cmt">#    peoplestr &lt;&lt; x.writeOut()</span>
+    <span class="ruby-comment cmt">#    peoplestr &lt;&lt; &quot;\n&quot;</span>
+    <span class="ruby-comment cmt">#  }</span>
+    <span class="ruby-comment cmt">#puts peoplestr</span>
+    
+    <span class="ruby-identifier">putPeople</span>() 
+    
+
+  <span class="ruby-keyword kw">end</span></pre>
+</body>
+</html>
