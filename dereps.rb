@@ -70,7 +70,7 @@ __END__
     = @errors
 
 %p
-  Delaware House Bill 5 proposes to ban discrimination based on sexual orientation. It passed the state House of Representatives convincingly with a 26-14 margin. Curently, it is stuck in the Senate Executive Committee. 
+  Delaware House Bill 5 proposes to ban discrimination based on sexual orientation. It passed the state House of Representatives convincingly with a 26-14 margin. Currently, it is stuck in the Senate Executive Committee. 
 %p
   Since the bill will probably not leave committee through regular means, state Senators need to sign a petition to bring it to the Senate floor.
 %p
