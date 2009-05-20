@@ -130,6 +130,7 @@ margin:0 6px 0 0;
 #Body #PageHeader {
 float:right;
 background:url("../images/bg.gif") repeat-x;
+text-align: center;
 width:784px;
 height:130px;
 margin:0;
@@ -177,7 +178,7 @@ padding:0;
 
 #Content {
 text-align:left;
-margin:0 0 0 175px;
+margin: 30px;
 padding:0;
 }
 
