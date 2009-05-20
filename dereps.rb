@@ -8,16 +8,22 @@ include StateReps
 
 BILL = "House Bill 5"
 
+helpers do
+  def param_load(param)
+    param && !param.empty? ? param : nil
+  end
+end
+
 get '/' do
   haml :index
 end
 
 post '/script' do
   @person = Person.new
-  @person.address = params[:address]
-  @person.city = params[:city]
-  @person.state = params[:state]
-  @person.zip9 = zip_9 @person
+  @person.address = param_load params[:address]
+  @person.city = param_load params[:city]
+  @person.state = param_load params[:state]
+  @person.zip9 = param_load(params[:zip9]) || zip_9(@person)
   @person.set_reps
   
   
@@ -113,8 +119,59 @@ __END__
     <option value="WI">Wisconsin</option> 
     <option value="WY">Wyoming</option>
     </select>
-  %input{:type => "submit", :value => "Get Reps"}
+  %hr{:width => '500px', :style => "margin-left: 0"}
+  %label OR
+  %p
+    If you are uncomfortable providing your address, simply enter your 9-digit zip code below. Go
+    %a{:href => "http://zip4.usps.com/zip4/"} here
+    to determine your 9-digit zip code if you do not know it.
+  %p
+    %label 9-digit Zip Code
+    %input{:type => "textfield", :name => "zip9", :length => 10, :size => 10}
+  %input{:type => "submit", :value => "Continue"}
 
 @@ script
 
+%h1 Call Your Senator
+
+
+%p
+  Now, please call your state senator, Senator
+  = @person.senator
+  , to ask him/her to sign the petition to get
+  = BILL
+  out of committee.
+
+%p
+  Below is your senator's number, followed by a sample script to use when talking to him or her.
+
 = @person.to_s
+
+%p
+  Dear Senator 
+  =precede @person.senator do
+    \:
+
+%p
+  My name is 
+
+  = succeed '. I live at' do
+    %span.bold&== <your name>
+  = succeed ', and I am calling today to ask for your support for House Bill 5.' do
+    - if @person.address
+      = @person.full_address
+    - else
+      %span.bold&== <your address>
+
+
+%p
+  HB 5 is a bill that would prohibit discrimination on the basis of sexual orientation in areas such as employment and housing. This bill is important to me because I feel that it is important to end this kind of unfair discrimination.
+
+%p
+  HB 5 passed by a large margin in the House of Representatives, but is stuck in the Senate Executive Committee.
+
+%p
+  Senator David Sokola is passing a petition around to pull the bill onto the senate floor for a vote. I hope that you have already signed the petition, and if not, that you will sign it by June 2nd, Petition Day for HB5. We have been patiently waiting for 10 years to get this legislation to the senate floor. 
+
+%p
+  Can I count on your support in petitioning HB5 out of committee?
