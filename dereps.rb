@@ -36,20 +36,10 @@ use_in_file_templates!
 
 __END__
 
-@@ layout
-
-%html
-  %head
-    %title= @title || "Find Your State Representatives"
-  %body
-    = yield
-    %hr
-    Copyright (c) 2009 Daniel Jackoway
-
 
 @@ index
 
-%h1= "Help Pass #{BILL}"
+%h1= "#{BILL}"
 
 %p
   TODO Blurb about why HB 5 rocks.

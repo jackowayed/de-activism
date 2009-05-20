@@ -1,0 +1,226 @@
+body {
+font-family:Helvetica, Gill Sans, Verdana, arial, sans-serif;
+font-size:12px;
+color:#333;
+line-height:1.5em;
+background:#ddd;
+text-align:center;
+margin:0 0 0 0;
+}
+
+a {
+color: #666;
+text-decoration:none;
+}
+
+a:hover {
+color:#699CCF;
+font-weight: bold;
+}
+
+#PageHeader {
+color:#FFF;
+font-size:16px;
+text-align:left;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+font-size:1.65em;
+color:#666;
+font-weight:400;
+margin:0 0 .5em;
+padding:.25em 0;
+}
+
+#Content h1.pagetitle {
+border-bottom:1px solid #ddd;
+margin:0;
+padding:.25em 0;
+}
+
+#Content h2 {
+font-weight:400;
+color:#666;
+font-size:1.4em;
+margin:0 0 .5em;
+padding:.25em 0 0;
+}
+
+#Sidebar {
+text-transform:none;
+background:#fff;
+float:left;
+clear:right;
+text-align:left;
+font-size:11px;
+width:200px;
+height:405px;
+margin:0;
+padding:5px;
+}
+
+#Content .Body {
+line-height:1.75em;
+}
+
+#Content ul {
+padding-left:0;
+list-style:none;
+margin:0 0 0 1em;
+}
+
+#Content li {
+background:url("../images/123.gif") 0 .2em no-repeat;
+list-style-type:none;
+margin:0;
+padding:0 0 0 .85em;
+}
+
+#Page {
+width:800px;
+text-align:left;
+margin:0 auto;
+padding:0;
+}
+
+#BodyTop {
+background:#fff url("../images/shadow.gif") top right repeat-y;
+width:800px;
+height:11px;
+font-size:1px;
+margin:0;
+padding:0;
+}
+
+#BodyBottom {
+background:#fff url("../images/shadowb.gif") top right no-repeat;
+width:800px;
+height:7px;
+font-size:1px;
+margin:0;
+padding:0;
+}
+
+#Body {
+background:#fff url("../images/shadowr.gif") top right repeat-y;
+font-family:Helvetica, Gill Sans, Verdana, arial, sans-serif;
+font-size:12px;
+width:800px;
+text-align:left;
+margin:0;
+padding:0;
+}
+
+#Navigation {
+padding:5px 0 0px;
+}
+
+#SiteHeader a {
+text-decoration:none;
+border:none;
+color:#333;
+}
+
+#Body #PageHeaderPad {
+margin:0 6px 0 0;
+}
+
+#Body #PageHeader {
+float:right;
+background:url("../images/bg.gif") repeat-x;
+width:784px;
+height:130px;
+margin:0;
+padding:5px;
+}
+
+#PageHeader .pad {
+padding:10px;
+}
+
+#PageHeader .pad h1{
+font-family:Helvetica, Gill Sans, Verdana;
+font-weight: bold;
+color: #fff;
+}
+
+#Body #MainMenu {
+float:right;
+background:#000;
+width:200px;
+height:420px;
+text-align:left;
+margin:0 10px;
+padding:0;
+}
+
+#Body #MainMenu .pad {
+margin:0;
+padding:10px;
+}
+
+#Body #MainMenu {
+margin:0;
+padding:0;
+}
+
+#Body #MainMenu a {
+border:0;
+color:#fff;
+font-size:12px;
+display:block;
+margin:0;
+padding:0;
+}
+
+#Content {
+text-align:left;
+margin:0 0 0 175px;
+padding:0;
+}
+
+#Content .pad {
+margin:0;
+padding:0 16px 0 0;
+}
+
+#Sidebar .pad {
+margin:0;
+padding:0 5px 5px 20px;
+}
+
+#Sidebar ul {
+list-style:none !important;
+margin:0 !important;
+padding:0 !important;
+}
+
+#Sidebar li {
+background:url("../images/123.gif") 0 .2em no-repeat !important;
+list-style-type:none !important;
+margin:0 !important;
+padding:0 0 0 .999em !important;
+}
+
+#Footer {
+background:transparent;
+text-align:center;
+font-size:11px;
+color:#666;
+margin:0 6px 0 0;
+padding:10px 0 10px 20px;
+}
+
+#Footer a:active,a:visited {
+color:#666;
+}
+
+#Footer a:hover {
+color:#699CCF;
+}
+
+#SiteHeader h1,#SiteHeader span,#Body #MainMenu #GlobalMenu h3 span {
+display:none;
+}
