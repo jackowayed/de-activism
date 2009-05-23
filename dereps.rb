@@ -159,8 +159,8 @@ __END__
 
 %p
   Now, please call your state senator, Senator
-  = @person.senator_name
-  , to ask him/her to sign the petition to get
+  = precede @person.senator_name do
+    , to ask him/her to sign the petition to get
   = BILL
   out of committee.
 
