@@ -6,7 +6,9 @@ require 'state-reps'
 
 include StateReps
 
-BILL = "House Bill 5"
+BILL = "House Bill 5 or Senate Bill 121"
+
+SHORT_BILL = "HB 5 and SB 121"
 
 helpers do
   def param_load(param)
@@ -160,6 +162,8 @@ __END__
 
 %h1 Call Your Senator
 
+%p
+  A new bill with the same goals, Senate Bill 121, has been introduced. Please urge your Senator to do whatever they can to ensure that one of these passes. 
 
 %p
   Now, please call your state senator, Senator
@@ -187,7 +191,7 @@ __END__
 
   = succeed '. I live at' do
     %span.bold&== <your name>
-  = succeed ', and I am calling today to ask for your support for House Bill 5.' do
+  = succeed ", and I am calling today to ask for your support for #{BILL}." do
     - if @person.address
       = @person.full_address
     - else
@@ -195,13 +199,14 @@ __END__
 
 
 %p
-  HB 5 is a bill that would prohibit discrimination on the basis of sexual orientation in areas such as employment and housing. This bill is important to me because I feel that it is important to end this kind of unfair discrimination.
+  = SHORT_BILL
+  are bills that would prohibit discrimination on the basis of sexual orientation in areas such as employment and housing. These bills are important to me because I feel that it is important to end this kind of unfair discrimination.
 
 %p
-  HB 5 passed by a large margin in the House of Representatives, but is stuck in the Senate Executive Committee.
+  HB 5 passed by a large margin in the House of Representatives, but is stuck in the Senate Executive Committee. Senate Bill 121 has been introduced to a different committee, the Senate Insurance Committee, with the same intent as HB 5. 
 
 %p
-  Senator David Sokola is passing a petition around to pull the bill onto the senate floor for a vote. I hope that you have already signed the petition, and if not, that you will sign it by June 2nd, Petition Day for HB5. We have been patiently waiting for 10 years to get this legislation to the senate floor. 
+  Please do whatever you can to get either of these bills onto the floor. We have been patiently waiting for 10 years to get this legislation to the senate floor. 
 
 %p
-  Can I count on your support in petitioning HB5 out of committee?
+  Can I count on your support in getting HB 5 and SB 121 out of committee?
