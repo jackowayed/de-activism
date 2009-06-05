@@ -70,6 +70,10 @@ __END__
     = @errors
 
 %p
+  %span.phonenum UPDATE:
+  A new bill, Senate Bill 121, is designed to accomplish the same thing as HB5, end discrimination in Delaware based on sexual orientation. SB121 is designed to be better able to pass the state senate. Ask you senator to vote for SB121 or HB5, whichever gets to the senate floor first.
+
+%p
   Delaware House Bill 5 proposes to ban discrimination based on sexual orientation. It passed the state House of Representatives convincingly with a 26-14 margin. Currently, it is stuck in the Senate Executive Committee. 
 %p
   Since the bill will probably not leave committee through regular means, state Senators need to sign a petition to bring it to the Senate floor.
