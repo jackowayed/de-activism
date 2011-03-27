@@ -44,9 +44,6 @@
   = succeed '. I live at' do
     %span.bold&== [your name]
   = succeed ", and I am calling today to ask for your support for #{BILL}." do
-    - if @person.address
-      = @person.full_address
-    - else
-      %span.bold&== [your address]
+    %span.bold&== [your address]
 
 %button.switch Switch to Calling Your Representative

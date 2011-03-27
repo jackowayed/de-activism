@@ -34,13 +34,13 @@ post '/call' do
   if param_load params[:zip9]
     @errors = "9-digit zip must be 5 digit, followed by a '-', followed by 4 digits" unless zip9? params[:zip9]
   else
-    @errors = "If you don't provide a 9-digit zip code, you must provide your address, city, and state" unless @person.address && @person.city && @person.state
+    @errors = "If you don't provide a 9-digit zip code, you must provide your address, city, and state" unless address && city && state
   end
 
   return haml(:index) if @errors
 
 
-  zip9 = param_load(params[:zip9]) || REPS.zip9(:address => address, :city => city, :state => state)
+  zip9 = param_load(params[:zip9]) || REPS.zip_9(:address => address, :city => city, :state => state)
 
   unless zip9
     @errors = "We had an error getting your 9-digit zip code. Please use link to manually find it."
