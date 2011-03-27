@@ -7,9 +7,9 @@ require 'haml'
 
 include StateReps
 
-BILL = "House Bill 5 or Senate Bill 121"
+BILL = "Civil Union and Equality Act of 2011"
 
-SHORT_BILL = "HB 5 and SB 121"
+SHORT_BILL = "SB 30"
 
 helpers do
   def param_load(param)
