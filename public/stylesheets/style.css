@@ -245,3 +245,7 @@ display:none;
     border-color: #F00;
     border-width: 2px;
 }
+
+.rep {
+  display:none;
+}
