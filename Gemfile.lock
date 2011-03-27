@@ -1,13 +1,17 @@
 GIT
   remote: git://github.com/jackowayed/state-reps.git
-  revision: 91df9726f6d7a2801898d3fec51127859da623c2
+  revision: e66f0002ce651bba65fe3624a95b143f3ada2756
+  tag: v0.2.1
   specs:
-    state-reps (0.1.6)
+    state-reps (0.2.1)
 
 GEM
   remote: http://rubygems.org/
   specs:
+    crack (0.1.8)
     haml (3.0.25)
+    httparty (0.7.4)
+      crack (= 0.1.8)
     rack (1.2.2)
     sinatra (1.2.1)
       rack (~> 1.1)
@@ -19,5 +23,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  httparty
   sinatra
   state-reps!
