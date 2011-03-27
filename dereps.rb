@@ -13,6 +13,16 @@ SHORT_BILL = "SB 30"
 
 REPS = StateReps.new ENV['VOTESMART_API_KEY']
 
+
+# in:
+# district \t [S]ponsor, [C]osponsor, or '' \t phone 1 \t phone 2
+def read_data(filename)
+  data = File.readlines(filename).map{|line| line.chomp.split("\t"). map{|field| field == "" ? nil : field}}
+  data.map do |line|
+    {:district => line[0], :sponsorship => line[1], :phone1 => line[2], :phone2 => line[3]}
+  end
+end
+
 helpers do
   def param_load(param)
     param && !param.empty? ? param : nil
