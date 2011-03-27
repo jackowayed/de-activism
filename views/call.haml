@@ -24,8 +24,10 @@
 
 %p
   Call
-  %span.phonenum.sen= @sen_phone
-  %span.phonenum.rep TODO representative phone number
+  %span.phonenum.sen= @sen_phone1
+  %span.sen= "[or #{@sen_phone2}]"
+  %span.phonenum.rep= @rep_phone1
+  %span.rep= "[or #{@rep_phone2}]"
 
 %h2 Script
 
@@ -35,7 +37,7 @@
     Senator
     = "#{@senator}:"
   %span.rep
-    Representative,
+    Representative
     = "#{@rep}:"
 
 %p
@@ -43,7 +45,28 @@
 
   = succeed '. I live at' do
     %span.bold&== [your name]
-  = succeed ", and I am calling today to ask for your support for #{BILL}." do
-    %span.bold&== [your address]
+  %span.bold&== [your address, including city]
+
+.sen
+  - if @sen_sponsorship
+    I am calling today to thank you for
+    = @sen_sponsorship == 'S' ? 'sponsoring' : 'co-sponsoring'
+    Senate Bill 30, the Civil Union bill.  I know that it can be difficult to stand up against vocal minorities who do not recognize the injustice which same-sex couples face.  Thank you for standing with the majority of Delawareans, like myself, who support Civil Unions.
+  - else
+    I am calling today to encourage you to support Senate Bill 30, the Civil Union bill.  I know that there is a vocal minority that does not recognize the injustice which same-sex couples face.
+    %span.bold
+      [share one sentence about how you yourself or a friend seek equality.]
+    Fortunately the majority of Delawareans, like myself, support Civil Unions, and recognize this as a pure equality issue.  For this reason, I strongly encourage you to join your fellow Senators in supporting Senate Bill 30.
+
+.rep
+  - if @rep_sponsorship
+    I am calling today to thank you for
+    = @rep_sponsorship == 'S' ? 'sponsoring' : 'co-sponsoring'
+    Senate Bill 30, the Civil Union bill.  I know that it can be difficult to stand up against vocal minorities who do not recognize the injustice which same-sex couples face.  Thank you for standing with the majority of Delawareans, like myself, who support Civil Unions.
+  - else
+    I am calling today to encourage you to support Senate Bill 30, the Civil Union bill.  I know that there is a vocal minority that does not recognize the injustice which same-sex couples face.
+    %span.bold
+      [share one sentence about how you yourself or a friend seek equality.]
+    Fortunately the majority of Delawareans, like myself, support Civil Unions, and recognize this as a pure equality issue.  For this reason, I strongly encourage you to join your fellow Senators in supporting Senate Bill 30.
 
 %button.switch Switch to Calling Your Representative

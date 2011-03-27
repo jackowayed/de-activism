@@ -23,6 +23,9 @@ def read_data(filename)
   end
 end
 
+SENATORS = read_data 'data/senate-phone.txt'
+REPRESENTATIVES = read_data 'data/house-phone.txt'
+
 helpers do
   def param_load(param)
     param && !param.empty? ? param : nil
@@ -58,10 +61,16 @@ post '/call' do
   end
 
   s, r = REPS.sd_and_rd zip9
-  @sd = s.keys.first
-  @rd = r.keys.first
+  @sd = s.keys.first.to_i
+  @rd = r.keys.first.to_i
   @senator = s.values.first
   @rep = r.values.first
-  
+  @sen_phone1 = SENATORS[@sd - 1][:phone1]
+  @sen_phone2 = SENATORS[@sd - 1][:phone2]
+  @rep_phone1 = REPRESENTATIVES[@rd - 1][:phone1]
+  @rep_phone2 = REPRESENTATIVES[@rd - 1][:phone2]
+  @sen_sponsorship = SENATORS[@sd - 1][:sponsorship]
+  @rep_sponsorship = REPRESENTATIVES[@rd - 1][:sponsorship]
+  puts @rep_sponsorship
   haml :call
 end
