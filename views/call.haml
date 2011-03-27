@@ -6,10 +6,10 @@
   Now, please call your state
   %span.sen
     senator, Senator
-    = @person.senator_name
+    = @senator
   %span.rep
     representative,
-    = "TODO rep name"
+    = @rep
 
   to ask him/her to support
   = BILL
@@ -24,7 +24,7 @@
 
 %p
   Call
-  %span.phonenum.sen= @person.senator_phone
+  %span.phonenum.sen= @sen_phone
   %span.phonenum.rep TODO representative phone number
 
 %h2 Script
@@ -33,10 +33,10 @@
   Dear
   %span.sen
     Senator
-    = "#{@person.senator_name}:"
+    = "#{@senator}:"
   %span.rep
     Representative,
-    = "TODO rep name"
+    = "#{@rep}:"
 
 %p
   My name is 

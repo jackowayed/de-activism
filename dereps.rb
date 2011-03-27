@@ -7,11 +7,11 @@ require 'sinatra'
 require 'state-reps'
 require 'haml'
 
-include StateReps
-
 BILL = "Civil Union and Equality Act of 2011"
 
 SHORT_BILL = "SB 30"
+
+REPS = StateReps.new ENV['VOTESMART_API_KEY']
 
 helpers do
   def param_load(param)
@@ -27,10 +27,9 @@ get '/' do
 end
 
 post '/call' do
-  @person = Person.new
-  @person.address = param_load params[:address]
-  @person.city = param_load params[:city]
-  @person.state = param_load params[:state]
+  address = param_load params[:address]
+  city = param_load params[:city]
+  state = param_load params[:state]
   @errors = nil
   if param_load params[:zip9]
     @errors = "9-digit zip must be 5 digit, followed by a '-', followed by 4 digits" unless zip9? params[:zip9]
@@ -41,20 +40,18 @@ post '/call' do
   return haml(:index) if @errors
 
 
-  @person.zip9 = param_load(params[:zip9]) || zip_9(@person)
+  zip9 = param_load(params[:zip9]) || REPS.zip9(:address => address, :city => city, :state => state)
 
-  unless @person.zip9
+  unless zip9
     @errors = "We had an error getting your 9-digit zip code. Please use link to manually find it."
     return haml(:index)
   end
 
-  @person.set_reps
-
-  unless @person.sd
-    @errors = "We had some issue finding your state senator. Sorry about that! Trying once more now and then again in 5 or 10 minutes might be all it takes. Otherwise, please send us feedback"
-    return haml(:index)
-  end
-  
+  s, r = REPS.sd_and_rd zip9
+  @sd = s.keys.first
+  @rd = r.keys.first
+  @senator = s.values.first
+  @rep = r.values.first
   
   haml :call
 end
