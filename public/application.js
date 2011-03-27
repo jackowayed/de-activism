@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	$('.switch').click(function() {
+    mpmetrics.track('Switch callee');
 		if ($('.switch')[0].innerHTML == "Switch to Calling Your Representative") {
 			$('.rep').show();
       $('.sen').hide();
