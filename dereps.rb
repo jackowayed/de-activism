@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
+require 'bundler/setup'
+
 require 'sinatra'
 require 'state-reps'
 require 'haml'
