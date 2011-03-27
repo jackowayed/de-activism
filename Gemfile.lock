@@ -1,0 +1,23 @@
+GIT
+  remote: git://github.com/jackowayed/state-reps.git
+  revision: 91df9726f6d7a2801898d3fec51127859da623c2
+  specs:
+    state-reps (0.1.6)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    haml (3.0.25)
+    rack (1.2.2)
+    sinatra (1.2.1)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  sinatra
+  state-reps!
