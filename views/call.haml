@@ -1,6 +1,6 @@
 %h1 Call Your Senator and Representative
 
-%button.switch Switch to Calling Your Representative
+%button.switch Switch to Contacting Your Representative
 
 %p
   Now, please call your state
@@ -25,9 +25,11 @@
 %p
   Call
   %span.phonenum.sen= @sen_phone1
-  %span.sen= "[or #{@sen_phone2}]"
+  - if @sen_phone2
+    %span.sen= "[or #{@sen_phone2}]"
   %span.phonenum.rep= @rep_phone1
-  %span.rep= "[or #{@rep_phone2}]"
+  - if @rep_phone2
+    %span.rep= "[or #{@rep_phone2}]"
 %p
   %span.rep
     Or email
@@ -37,7 +39,7 @@
     %a{:href => "mailto:#{@sen_email}"}= @sen_email
 
 
-%h2 Script
+%h2 Sample Script
 
 %p
   Dear
@@ -79,6 +81,9 @@
       [share one sentence about how you yourself or a friend seek equality.]
     Fortunately the majority of Delawareans, like myself, support Civil Unions, and recognize this as a pure equality issue.  For this reason, I strongly encourage you to join your fellow Senators in supporting Senate Bill 30.
 
-%button.switch Switch to Calling Your Representative
+%button.switch Switch to Contacting Your Representative
+
+%p
+  %a{:href => '/'} Go Home
 :javascript
   mpmetrics.track('Load call page');
