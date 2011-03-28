@@ -28,6 +28,14 @@
   %span.sen= "[or #{@sen_phone2}]"
   %span.phonenum.rep= @rep_phone1
   %span.rep= "[or #{@rep_phone2}]"
+%p
+  %span.rep
+    Or email
+    %a{:href => "mailto:#{@rep_email}"}= @rep_email
+  %span.sen
+    Or email
+    %a{:href => "mailto:#{@sen_email}"}= @sen_email
+
 
 %h2 Script
 

@@ -71,6 +71,7 @@ post '/call' do
   @rep_phone2 = REPRESENTATIVES[@rd - 1][:phone2]
   @sen_sponsorship = SENATORS[@sd - 1][:sponsorship]
   @rep_sponsorship = REPRESENTATIVES[@rd - 1][:sponsorship]
-  puts @rep_sponsorship
+  @sen_email = SENATORS[@sd - 1][:email]
+  @rep_email = REPRESENTATIVES[@rd - 1][:email]
   haml :call
 end
