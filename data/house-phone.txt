@@ -5,7 +5,7 @@
 5	Melanie George	S	302-744-4326	302-832-1956	melanie.george@state.de.us
 6	Debra Heffernan	C	302-744-4351	302-762-3478	debra.heffernan@state.de.us
 7	Bryon H. Short	C	302-744-4297	302-475-2552	bryon.short@state.de.us
-8	S. Quinton Johnson, IV		302-744-4351	302-378-2681	quinton.johnson@state.de.us
+8	Quinton Johnson, IV		302-744-4351	302-378-2681	quinton.johnson@state.de.us
 9	Rebecca Walker		302-744-4351	302-577-8476	rebecca.walker@state.de.us
 10	Dennis E. Williams	C	302-744-4351	302-373-0115	dennis.e.williams@state.de.us
 11	Gregory Lavelle		302-744-4171	302-478-6128	greg.lavelle@state.de.us
@@ -37,5 +37,5 @@
 37	Ruth Briggs King		302-744-4351	302-856-2772	ruth.briggsking@state.de.us 
 38	Gerald W. Hocker		302-744-4171	302-539-4140	gerald.hocker@state.de.us
 39	Daniel Short		302-744-4171		daniel.short@state.de.us
-40	Clifford “Biff” Lee		302-744-4171		biff.lee@state.de.us
+40	Clifford Lee		302-744-4171		biff.lee@state.de.us
 41	John Atkins		302-744-4082		john.atkins@state.de.us

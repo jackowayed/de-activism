@@ -14,8 +14,8 @@
 14	Bruce C. Ennis		302-744-4310	302-653-7566	bruce.ennis@state.de.us 
 15	David G. Lawson		302-744-4237	302-492-1511	dave.lawson@state.de.us
 16	Colin R. Bonini		302-744-4169	302-698-0960	senator-colin@prodigy.net
-17	Brian J. Bushweller		302-744-4162	302-674-5442	brian.bushweller@state.de.us 
-18	F. Gary Simpson		302-744-4134	302-735-8200	gsimpson@udel.edu
+17	Brian J. Bushweller		302-744-4162	302-674-5442	brian.bushweller@state.de.us
+18	Gary Simpson		302-744-4134	302-735-8200	gsimpson@udel.edu
 19	Joseph W. Booth		302-744-4117		joseph.booth@state.de.us
 20	George Bunting	C	302-744-4286		george.bunting@state.de.us
 21	Robert L. Venables		302-744-4298	302-875-9559	robert.venables@state.de.us
