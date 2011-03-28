@@ -1,21 +1,21 @@
-1	C	302-744-4147	302-577-8744	Harris.McDowell@state.de.us
-2	C	302-744-4191	302-577-8719	MargaretRose.Henry@state.de.us
-3		302-744-4168	302-577-8718	robert.marshall@state.de.us
-4	C	302-744-4286	302-577-8744	michael.katz@state.de.us
-5		302-744-4197	302-577-8517	catherine.cloutier@state.de.us
-6	S	302-744-4136	302-577-8517	Liane.Sorenson@state.de.us
-7	C	302-577-8542	302-577-8542	Patricia.Blevins@state.de.us
-8	S	302-744-4139	302-577-8744	David.Sokola@state.de.us
-9	C	302-744-4163	302-577-8468	karen.peterson@state.de.us
-10		302-744-4286	302-378-8386	bethany.hall-long@state.de.us
-11		302-744-4165	302-577-8542	anthony.deluca@state.de.us
-12		302-744-4164	302-577-8716	dorinda.connor@state.de.us
-13		302-744-4167	302-577-8744	david.mcbride@state.de.us
-14		302-744-4310	302-653-7566	bruce.ennis@state.de.us
-15		302-744-4237	302-492-1511	dave.lawson@state.de.us
-16		302-744-4169	302-698-0960	senator-colin@prodigy.net
-17		302-744-4162	302-674-5442	brian.bushweller@state.de.us
-18		302-744-4134	302-735-8200	gsimpson@udel.edu
-19		302-744-4117		joseph.booth@state.de.us
-20	C	302-744-4286		george.bunting@state.de.us
-21		302-744-4298	302-875-9559	robert.venables@state.de.us
+1	Harris B. McDowell, III	C	302-744-4147	302-577-8744	Harris.McDowell@state.de.us
+2	Margaret Rose Henry	C	302-744-4191	302-577-8719	MargaretRose.Henry@state.de.us
+3	Robert I. Marshall		302-744-4168	302-577-8718	robert.marshall@state.de.us
+4	Michael Katz	C	302-744-4286	302-577-8744	michael.katz@state.de.us
+5	Catherine Cloutier		302-744-4197	302-577-8517	catherine.cloutier@state.de.us
+6	Liane M. Sorenson	S	302-744-4136	302-577-8517	Liane.Sorenson@state.de.us
+7	Patricia M. Blevins	C	302-577-8542	302-577-8542	Patricia.Blevins@state.de.us
+8	David P. Sokola	S	302-744-4139	302-577-8744	David.Sokola@state.de.us
+9	Karen E. Peterson	C	302-744-4163	302-577-8468	karen.peterson@state.de.us
+10	Bethany Hall-Long		302-744-4286	302-378-8386	bethany.hall-long@state.de.us
+11	Anthony J. DeLuca		302-744-4165	302-577-8542	anthony.deluca@state.de.us
+12	Dorinda A. Connor		302-744-4164	302-577-8716	dorinda.connor@state.de.us
+13	David B. McBride		302-744-4167	302-577-8744	david.mcbride@state.de.us
+14	Bruce C. Ennis		302-744-4310	302-653-7566	bruce.ennis@state.de.us 
+15	David G. Lawson		302-744-4237	302-492-1511	dave.lawson@state.de.us
+16	Colin R. Bonini		302-744-4169	302-698-0960	senator-colin@prodigy.net
+17	Brian J. Bushweller		302-744-4162	302-674-5442	brian.bushweller@state.de.us 
+18	F. Gary Simpson		302-744-4134	302-735-8200	gsimpson@udel.edu
+19	Joseph W. Booth		302-744-4117		joseph.booth@state.de.us
+20	George Bunting	C	302-744-4286		george.bunting@state.de.us
+21	Robert L. Venables		302-744-4298	302-875-9559	robert.venables@state.de.us

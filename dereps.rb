@@ -19,7 +19,7 @@ REPS = StateReps.new ENV['VOTESMART_API_KEY']
 def read_data(filename)
   data = File.readlines(filename).map{|line| line.chomp.split("\t"). map{|field| field == "" ? nil : field}}
   data.map do |line|
-    {:district => line[0], :sponsorship => line[1], :phone1 => line[2], :phone2 => line[3], :email => line[4]}
+    {:district => line[0], :name => line[1], :sponsorship => line[2], :phone1 => line[3], :phone2 => line[4], :email => line[5]}
   end
 end
 
@@ -63,8 +63,8 @@ post '/call' do
   s, r = REPS.sd_and_rd zip9
   @sd = s.keys.first.to_i
   @rd = r.keys.first.to_i
-  @senator = s.values.first
-  @rep = r.values.first
+  @senator = SENATORS[@sd - 1][:name]
+  @rep = REPRESENTATIVES[@rd - 1][:name]
   @sen_phone1 = SENATORS[@sd - 1][:phone1]
   @sen_phone2 = SENATORS[@sd - 1][:phone2]
   @rep_phone1 = REPRESENTATIVES[@rd - 1][:phone1]
