@@ -3,7 +3,7 @@
 3		302-744-4168	302-577-8718	robert.marshall@state.de.us
 4	C	302-744-4286	302-577-8744	michael.katz@state.de.us
 5		302-744-4197	302-577-8517	catherine.cloutier@state.de.us
-6	S	302-744-4136	302-577-8517	Dorinda.Connor@state.de.us
+6	S	302-744-4136	302-577-8517	Liane.Sorenson@state.de.us
 7	C	302-577-8542	302-577-8542	Patricia.Blevins@state.de.us
 8	S	302-744-4139	302-577-8744	David.Sokola@state.de.us
 9	C	302-744-4163	302-577-8468	karen.peterson@state.de.us
