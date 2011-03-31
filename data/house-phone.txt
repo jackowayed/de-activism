@@ -1,41 +1,41 @@
-1	Dennis P. Williams	C	302-744-4351	302-577-5312	dennis.williams@state.de.us
-2	Stephanie T. Bolden	C	302-744-4351	302-428-1269	stephaniet.bolden@state.de.us
-3	Helene M. Keeley	C	302-744-4351	302-577-8476	helene.keeley@state.de.us
-4	Gerald Brady	C	302-744-4351	302-577-8476	gerald.brady@state.de.us
-5	Melanie George	S	302-744-4326	302-832-1956	melanie.george@state.de.us
-6	Debra Heffernan	C	302-744-4351	302-762-3478	debra.heffernan@state.de.us
-7	Bryon H. Short	C	302-744-4297	302-475-2552	bryon.short@state.de.us
-8	Quinton Johnson, IV		302-744-4351	302-378-2681	quinton.johnson@state.de.us
-9	Rebecca Walker		302-744-4351	302-577-8476	rebecca.walker@state.de.us
-10	Dennis E. Williams	C	302-744-4351	302-373-0115	dennis.e.williams@state.de.us
-11	Gregory Lavelle		302-744-4171	302-478-6128	greg.lavelle@state.de.us
-12	Deborah D. Hudson		302-744-4171	302-651-9571	deborah.hudson@state.de.us
-13	John L. Mitchell, Jr.	C	302-744-4351	302-577-8342	john.l.mitchell@state.de.us
+1	Dennis P. Williams	C	302-744-4351		dennis.williams@state.de.us
+2	Stephanie T. Bolden	C	302-744-4351		stephaniet.bolden@state.de.us
+3	Helene M. Keeley	C	302-744-4351		helene.keeley@state.de.us
+4	Gerald Brady	C	302-744-4351		gerald.brady@state.de.us
+5	Melanie George	S	302-744-4326		melanie.george@state.de.us
+6	Debra Heffernan	C	302-744-4351		debra.heffernan@state.de.us
+7	Bryon H. Short	C	302-744-4297		bryon.short@state.de.us
+8	Quinton Johnson		302-744-4351		quinton.johnson@state.de.us
+9	Rebecca Walker		302-744-4351		rebecca.walker@state.de.us
+10	Dennis E. Williams	C	302-744-4351		dennis.e.williams@state.de.us
+11	Gregory Lavelle		302-744-4171		greg.lavelle@state.de.us
+12	Deborah D. Hudson		302-744-4171		deborah.hudson@state.de.us
+13	John L. Mitchell, Jr.	C	302-744-4351		john.l.mitchell@state.de.us
 14	Peter Schwartzkopf	C	302-744-4351		peter.schwartzkopf@state.de.us
-15	Valerie Longhurst		302-744-4351	302-577-8475	valerie.longhurst@state.de.us
-16	James Johnson		302-744-4351	302-322-3521	jj.johnson@state.de.us
-17	Michael P. Mulrooney	C	302-744-4351	302-577-8476	michael.mulrooney@state.de.us
-18	Michael A. Barbieri	C	302-744-4192	302-420-6564	michael.barbieri@state.de.us
-19	Robert F. Gilligan	C	302-744-4351	302-999-8722	robert.gilligan@state.de.us
-20	Nick Manolakos		302-744-4321	302-239-3943	nick.t.manolakos@state.de.us
-21	Michael Ramone		302-744-4108	302-584-8601	michael.ramone@state.de.us
-22	Joseph Miro		302-744-4171	302-577-8723	joseph.miro@state.de.us
-23	Teresa Schooley	S	302-744-4351	302-454-8322	terry.schooley@state.de.us
-24	Edward S. Osienski	C	302-744-4351	302-292-8903	edward.osienski@state.de.us
-25	John Kowalko	C	302-744-4351	302-737-2396	john.kowalko@state.de.us
-26	John Viola	C	302-744-4351	302-832-2209	john.viola@state.de.us
-27	Earl Jaques		302-744-4142	302-577-8476	earl.jaques@state.de.us
+15	Valerie Longhurst		302-744-4351		valerie.longhurst@state.de.us
+16	James Johnson		302-744-4351		jj.johnson@state.de.us
+17	Michael P. Mulrooney	C	302-744-4351		michael.mulrooney@state.de.us
+18	Michael A. Barbieri	C	302-744-4192		michael.barbieri@state.de.us
+19	Robert F. Gilligan	C	302-744-4351		robert.gilligan@state.de.us
+20	Nick Manolakos		302-744-4321		nick.t.manolakos@state.de.us
+21	Michael Ramone		302-744-4108		michael.ramone@state.de.us
+22	Joseph Miro		302-744-4171		joseph.miro@state.de.us
+23	Teresa Schooley	S	302-744-4351		terry.schooley@state.de.us
+24	Edward S. Osienski	C	302-744-4351		edward.osienski@state.de.us
+25	John Kowalko	C	302-744-4351		john.kowalko@state.de.us
+26	John Viola	C	302-744-4351		john.viola@state.de.us
+27	Earl Jaques		302-744-4142		earl.jaques@state.de.us
 28	William J. Carson		302-744-4113		william.carson@state.de.us
-29	Lincoln D. Willis		302-744-4033	302-659-3436	lincoln.willis@state.de.us
-30	William Outten		302-744-4083	302-398-3816	bobby.outten@state.de.us
-31	Darryl M Scott	C	302-744-4351	302-747-7765	darryl.scott@state.de.us
-32	Edward Bradford Bennett		302-744-4351	302-734-8699	bradford.bennett@state.de.us
-33	Harold J. Peterman		302-744-4171	302-335-4261	jack.peterman@state.de.us
+29	Lincoln D. Willis		302-744-4033		lincoln.willis@state.de.us
+30	William Outten		302-744-4083		bobby.outten@state.de.us
+31	Darryl M Scott	C	302-744-4351		darryl.scott@state.de.us
+32	Edward Bradford Bennett		302-744-4351		bradford.bennett@state.de.us
+33	Harold J. Peterman		302-744-4171		jack.peterman@state.de.us
 34	Donald Blakey		302-744-4171		donald.blakey@state.de.us
-35	David L. Wilson		302-744-4350	302-422-9270	david.wilson@state.de.us
-36	Harvey R. Kenton		302-744-4171	302-422-6155	harvey.kenton@state.de.us
-37	Ruth Briggs King		302-744-4351	302-856-2772	ruth.briggsking@state.de.us 
-38	Gerald W. Hocker		302-744-4171	302-539-4140	gerald.hocker@state.de.us
+35	David L. Wilson		302-744-4350		david.wilson@state.de.us
+36	Harvey R. Kenton		302-744-4171		harvey.kenton@state.de.us
+37	Ruth Briggs King		302-744-4351		ruth.briggsking@state.de.us 
+38	Gerald W. Hocker		302-744-4171		gerald.hocker@state.de.us
 39	Daniel Short		302-744-4171		daniel.short@state.de.us
 40	Clifford Lee		302-744-4171		biff.lee@state.de.us
 41	John Atkins		302-744-4082		john.atkins@state.de.us
