@@ -246,6 +246,9 @@ display:none;
     border-width: 2px;
 }
 
-.rep {
+.sen {
   display:none;
+}
+.switch {
+   display:none;
 }
